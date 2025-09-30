@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65f5fb2-fafa-4e0f-8943-12ce4d4dd379" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miu/cs489/DataLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miu/cs489/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miu/cs489/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miu/cs489/QuarterlyReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miu/cs489/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miu/cs489/model/PensionPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/miu/cs489/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c65f5fb2-fafa-4e0f-8943-12ce4d4dd379" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759260317627</updated>
-      <workItem from="1759260319692" duration="901000" />
+      <workItem from="1759260319692" duration="1227000" />
     </task>
     <servers />
   </component>
