@@ -30,5 +30,10 @@ jobs:
     - name: Build with Maven
       working-directory: lab2/PAMS 
       run: mvn -B package --file pom.xml
+    - name: Upload JAR artifact
+      uses: actions/upload-artifact@v4
+      with:
+          name: patient-app-jar
+          path: lab2/PAMS/target/*.jar
 
     
