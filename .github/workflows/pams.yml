@@ -33,7 +33,7 @@ jobs:
     - name: Upload JAR artifact
       uses: actions/upload-artifact@v4
       with:
-          name: patient-app-jar
-          path: lab2/PAMS/target/*.jar
+        name: patient-app-jar
+        path: lab2/PAMS/target/*.jar
 
     
