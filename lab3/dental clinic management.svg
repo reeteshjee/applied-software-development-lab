@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1646px" preserveAspectRatio="none" style="width:932px;height:1646px;background:#FFFFFF;" version="1.1" viewBox="0 0 932 1646" width="932px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="495" x="211.75" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="485" x="216.75" y="22.9951">Advantis Dental Surgeries - Domain Model UML Class Diagram</text><!--MD5=[b4bfceacf7ee6345b74a02c6f6e2580a]
+class OfficeManager--><g id="elem_OfficeManager"><rect codeLine="6" fill="#F1F1F1" height="178.375" id="OfficeManager" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="175" x="473.5" y="44.2969"/><ellipse cx="508.3" cy="60.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M511.2688,65.9375 Q510.6906,66.2344 510.05,66.375 Q509.4094,66.5313 508.7063,66.5313 Q506.2063,66.5313 504.8781,64.8906 Q503.5656,63.2344 503.5656,60.1094 Q503.5656,56.9844 504.8781,55.3281 Q506.2063,53.6719 508.7063,53.6719 Q509.4094,53.6719 510.05,53.8281 Q510.7063,53.9844 511.2688,54.2813 L511.2688,57 Q510.6438,56.4219 510.05,56.1563 Q509.4563,55.875 508.8313,55.875 Q507.4875,55.875 506.8,56.9531 Q506.1125,58.0156 506.1125,60.1094 Q506.1125,62.2031 506.8,63.2813 Q507.4875,64.3438 508.8313,64.3438 Q509.4563,64.3438 510.05,64.0781 Q510.6438,63.7969 511.2688,63.2188 L511.2688,65.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="526.7" y="65.1436">OfficeManager</text><line style="stroke:#181818;stroke-width:0.5;" x1="474.5" x2="647.5" y1="76.2969" y2="76.2969"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="481.5" y="86.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="493.5" y="93.292">employeeId: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="481.5" y="103.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="493.5" y="109.5889">firstName: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="481.5" y="119.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="493.5" y="125.8857">lastName: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="481.5" y="135.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="493.5" y="142.1826">email: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="481.5" y="152.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="493.5" y="158.4795">phoneNumber: String</text><line style="stroke:#181818;stroke-width:1.0;" x1="474.5" x2="647.5" y1="165.7813" y2="165.7813"/><ellipse cx="484.5" cy="179.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="493.5" y="182.7764">registerDentist()</text><ellipse cx="484.5" cy="195.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="493.5" y="199.0732">enrollPatient()</text><ellipse cx="484.5" cy="212.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="493.5" y="215.3701">bookAppointment()</text></g><!--MD5=[aaeda90ee996e78f6ef66912aae35408]
+class Dentist--><g id="elem_Dentist"><rect codeLine="18" fill="#F1F1F1" height="178.375" id="Dentist" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="175" x="442.5" y="573.2969"/><ellipse cx="500.75" cy="589.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M503.7188,594.9375 Q503.1406,595.2344 502.5,595.375 Q501.8594,595.5313 501.1563,595.5313 Q498.6563,595.5313 497.3281,593.8906 Q496.0156,592.2344 496.0156,589.1094 Q496.0156,585.9844 497.3281,584.3281 Q498.6563,582.6719 501.1563,582.6719 Q501.8594,582.6719 502.5,582.8281 Q503.1563,582.9844 503.7188,583.2813 L503.7188,586 Q503.0938,585.4219 502.5,585.1563 Q501.9063,584.875 501.2813,584.875 Q499.9375,584.875 499.25,585.9531 Q498.5625,587.0156 498.5625,589.1094 Q498.5625,591.2031 499.25,592.2813 Q499.9375,593.3438 501.2813,593.3438 Q501.9063,593.3438 502.5,593.0781 Q503.0938,592.7969 503.7188,592.2188 L503.7188,594.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="521.25" y="594.1436">Dentist</text><line style="stroke:#181818;stroke-width:0.5;" x1="443.5" x2="616.5" y1="605.2969" y2="605.2969"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="450.5" y="615.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="462.5" y="622.292">dentistId: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="450.5" y="632.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="462.5" y="638.5889">firstName: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="450.5" y="648.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="462.5" y="654.8857">lastName: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="450.5" y="664.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="462.5" y="671.1826">phoneNumber: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="450.5" y="681.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="462.5" y="687.4795">email: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="450.5" y="697.4297"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="462.5" y="703.7764">specialization: String</text><line style="stroke:#181818;stroke-width:1.0;" x1="443.5" x2="616.5" y1="711.0781" y2="711.0781"/><ellipse cx="453.5" cy="724.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="462.5" y="728.0732">viewAppointments()</text><ellipse cx="453.5" cy="741.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="462.5" y="744.3701">getSchedule()</text></g><!--MD5=[9dd4eaa2771a2ff8dbee15cc1e732cab]
+class Patient--><g id="elem_Patient"><rect codeLine="30" fill="#F1F1F1" height="243.5625" id="Patient" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="221" x="55.5" y="299.2969"/><ellipse cx="137.75" cy="315.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M140.7188,320.9375 Q140.1406,321.2344 139.5,321.375 Q138.8594,321.5313 138.1563,321.5313 Q135.6563,321.5313 134.3281,319.8906 Q133.0156,318.2344 133.0156,315.1094 Q133.0156,311.9844 134.3281,310.3281 Q135.6563,308.6719 138.1563,308.6719 Q138.8594,308.6719 139.5,308.8281 Q140.1563,308.9844 140.7188,309.2813 L140.7188,312 Q140.0938,311.4219 139.5,311.1563 Q138.9063,310.875 138.2813,310.875 Q136.9375,310.875 136.25,311.9531 Q135.5625,313.0156 135.5625,315.1094 Q135.5625,317.2031 136.25,318.2813 Q136.9375,319.3438 138.2813,319.3438 Q138.9063,319.3438 139.5,319.0781 Q140.0938,318.7969 140.7188,318.2188 L140.7188,320.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="158.25" y="320.1436">Patient</text><line style="stroke:#181818;stroke-width:0.5;" x1="56.5" x2="275.5" y1="331.2969" y2="331.2969"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="63.5" y="341.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="75.5" y="348.292">patientId: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="63.5" y="358.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="75.5" y="364.5889">firstName: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="63.5" y="374.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="75.5" y="380.8857">lastName: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="63.5" y="390.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="75.5" y="397.1826">phoneNumber: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="63.5" y="407.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="75.5" y="413.4795">email: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="63.5" y="423.4297"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="75.5" y="429.7764">mailingAddress: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="63.5" y="439.7266"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="75.5" y="446.0732">dateOfBirth: Date</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="63.5" y="456.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="75.5" y="462.3701">hasOutstandingBill: Boolean</text><line style="stroke:#181818;stroke-width:1.0;" x1="56.5" x2="275.5" y1="469.6719" y2="469.6719"/><ellipse cx="66.5" cy="483.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="75.5" y="486.667">requestAppointment()</text><ellipse cx="66.5" cy="499.6172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="75.5" y="502.9639">viewAppointments()</text><ellipse cx="66.5" cy="515.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="75.5" y="519.2607">cancelAppointment()</text><ellipse cx="66.5" cy="532.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="75.5" y="535.5576">changeAppointment()</text></g><!--MD5=[c508b5b6bbe276ff5e2700b6641f837f]
+class Appointment--><g id="elem_Appointment"><rect codeLine="46" fill="#F1F1F1" height="194.6719" id="Appointment" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="191" x="238.5" y="1036.2969"/><ellipse cx="285.25" cy="1052.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M288.2188,1057.9375 Q287.6406,1058.2344 287,1058.375 Q286.3594,1058.5313 285.6563,1058.5313 Q283.1563,1058.5313 281.8281,1056.8906 Q280.5156,1055.2344 280.5156,1052.1094 Q280.5156,1048.9844 281.8281,1047.3281 Q283.1563,1045.6719 285.6563,1045.6719 Q286.3594,1045.6719 287,1045.8281 Q287.6563,1045.9844 288.2188,1046.2813 L288.2188,1049 Q287.5938,1048.4219 287,1048.1563 Q286.4063,1047.875 285.7813,1047.875 Q284.4375,1047.875 283.75,1048.9531 Q283.0625,1050.0156 283.0625,1052.1094 Q283.0625,1054.2031 283.75,1055.2813 Q284.4375,1056.3438 285.7813,1056.3438 Q286.4063,1056.3438 287,1056.0781 Q287.5938,1055.7969 288.2188,1055.2188 L288.2188,1057.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="305.75" y="1057.1436">Appointment</text><line style="stroke:#181818;stroke-width:0.5;" x1="239.5" x2="428.5" y1="1068.2969" y2="1068.2969"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="246.5" y="1078.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="258.5" y="1085.292">appointmentId: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="246.5" y="1095.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="258.5" y="1101.5889">appointmentDate: Date</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="246.5" y="1111.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="258.5" y="1117.8857">appointmentTime: Time</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="246.5" y="1127.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="258.5" y="1134.1826">status: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="246.5" y="1144.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="258.5" y="1150.4795">requestDate: Date</text><line style="stroke:#181818;stroke-width:1.0;" x1="239.5" x2="428.5" y1="1157.7813" y2="1157.7813"/><ellipse cx="249.5" cy="1171.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="258.5" y="1174.7764">book()</text><ellipse cx="249.5" cy="1187.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="258.5" y="1191.0732">cancel()</text><ellipse cx="249.5" cy="1204.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="258.5" y="1207.3701">reschedule()</text><ellipse cx="249.5" cy="1220.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="258.5" y="1223.667">sendConfirmation()</text></g><!--MD5=[34136ba0c956eae0aa1ffac09db432da]
+class AppointmentRequest--><g id="elem_AppointmentRequest"><rect codeLine="59" fill="#F1F1F1" height="178.375" id="AppointmentRequest" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="189" x="239.5" y="781.2969"/><ellipse cx="258.55" cy="797.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M261.5188,802.9375 Q260.9406,803.2344 260.3,803.375 Q259.6594,803.5313 258.9563,803.5313 Q256.4563,803.5313 255.1281,801.8906 Q253.8156,800.2344 253.8156,797.1094 Q253.8156,793.9844 255.1281,792.3281 Q256.4563,790.6719 258.9563,790.6719 Q259.6594,790.6719 260.3,790.8281 Q260.9563,790.9844 261.5188,791.2813 L261.5188,794 Q260.8938,793.4219 260.3,793.1563 Q259.7063,792.875 259.0813,792.875 Q257.7375,792.875 257.05,793.9531 Q256.3625,795.0156 256.3625,797.1094 Q256.3625,799.2031 257.05,800.2813 Q257.7375,801.3438 259.0813,801.3438 Q259.7063,801.3438 260.3,801.0781 Q260.8938,800.7969 261.5188,800.2188 L261.5188,802.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="273.45" y="802.1436">AppointmentRequest</text><line style="stroke:#181818;stroke-width:0.5;" x1="240.5" x2="427.5" y1="813.2969" y2="813.2969"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="247.5" y="823.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="259.5" y="830.292">requestId: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="247.5" y="840.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="259.5" y="846.5889">requestDate: DateTime</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="247.5" y="856.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="259.5" y="862.8857">preferredDate: Date</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="247.5" y="872.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="259.5" y="879.1826">preferredTime: Time</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="247.5" y="889.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="259.5" y="895.4795">status: String</text><line style="stroke:#181818;stroke-width:1.0;" x1="240.5" x2="427.5" y1="902.7813" y2="902.7813"/><ellipse cx="250.5" cy="916.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="259.5" y="919.7764">submit()</text><ellipse cx="250.5" cy="932.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="259.5" y="936.0732">approve()</text><ellipse cx="250.5" cy="949.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="259.5" y="952.3701">reject()</text></g><!--MD5=[060cec3c004256af3a30db526b1bcb2d]
+class Surgery--><g id="elem_Surgery"><rect codeLine="71" fill="#F1F1F1" height="145.7813" id="Surgery" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="201" x="480.5" y="1324.2969"/><ellipse cx="550.25" cy="1340.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M553.2188,1345.9375 Q552.6406,1346.2344 552,1346.375 Q551.3594,1346.5313 550.6563,1346.5313 Q548.1563,1346.5313 546.8281,1344.8906 Q545.5156,1343.2344 545.5156,1340.1094 Q545.5156,1336.9844 546.8281,1335.3281 Q548.1563,1333.6719 550.6563,1333.6719 Q551.3594,1333.6719 552,1333.8281 Q552.6563,1333.9844 553.2188,1334.2813 L553.2188,1337 Q552.5938,1336.4219 552,1336.1563 Q551.4063,1335.875 550.7813,1335.875 Q549.4375,1335.875 548.75,1336.9531 Q548.0625,1338.0156 548.0625,1340.1094 Q548.0625,1342.2031 548.75,1343.2813 Q549.4375,1344.3438 550.7813,1344.3438 Q551.4063,1344.3438 552,1344.0781 Q552.5938,1343.7969 553.2188,1343.2188 L553.2188,1345.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="570.75" y="1345.1436">Surgery</text><line style="stroke:#181818;stroke-width:0.5;" x1="481.5" x2="680.5" y1="1356.2969" y2="1356.2969"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="488.5" y="1366.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="500.5" y="1373.292">surgeryId: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="488.5" y="1383.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="500.5" y="1389.5889">name: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="488.5" y="1399.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="500.5" y="1405.8857">locationAddress: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="488.5" y="1415.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="500.5" y="1422.1826">telephoneNumber: String</text><line style="stroke:#181818;stroke-width:1.0;" x1="481.5" x2="680.5" y1="1429.4844" y2="1429.4844"/><ellipse cx="491.5" cy="1443.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="500.5" y="1446.4795">getDetails()</text><ellipse cx="491.5" cy="1459.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="500.5" y="1462.7764">getAvailability()</text></g><!--MD5=[4d37ff7ba0ceae5cd2f46bdb37209993]
+class Bill--><g id="elem_Bill"><rect codeLine="81" fill="#F1F1F1" height="178.375" id="Bill" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="156" x="7" y="1308.2969"/><ellipse cx="71.25" cy="1324.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M74.2188,1329.9375 Q73.6406,1330.2344 73,1330.375 Q72.3594,1330.5313 71.6563,1330.5313 Q69.1563,1330.5313 67.8281,1328.8906 Q66.5156,1327.2344 66.5156,1324.1094 Q66.5156,1320.9844 67.8281,1319.3281 Q69.1563,1317.6719 71.6563,1317.6719 Q72.3594,1317.6719 73,1317.8281 Q73.6563,1317.9844 74.2188,1318.2813 L74.2188,1321 Q73.5938,1320.4219 73,1320.1563 Q72.4063,1319.875 71.7813,1319.875 Q70.4375,1319.875 69.75,1320.9531 Q69.0625,1322.0156 69.0625,1324.1094 Q69.0625,1326.2031 69.75,1327.2813 Q70.4375,1328.3438 71.7813,1328.3438 Q72.4063,1328.3438 73,1328.0781 Q73.5938,1327.7969 74.2188,1327.2188 L74.2188,1329.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="19" x="91.75" y="1329.1436">Bill</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="162" y1="1340.2969" y2="1340.2969"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="1350.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="27" y="1357.292">billId: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="1367.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="27" y="1373.5889">amount: Decimal</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="1383.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="27" y="1389.8857">issueDate: Date</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="1399.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="27" y="1406.1826">dueDate: Date</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="1416.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="27" y="1422.4795">isPaid: Boolean</text><line style="stroke:#181818;stroke-width:1.0;" x1="8" x2="162" y1="1429.7813" y2="1429.7813"/><ellipse cx="18" cy="1443.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="27" y="1446.7764">markAsPaid()</text><ellipse cx="18" cy="1459.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="27" y="1463.0732">calculateOverdue()</text><ellipse cx="18" cy="1476.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="27" y="1479.3701">sendReminder()</text></g><path d="M312,396.2969 L312,412.4297 L270.5,457.5234 L312,420.4297 L312,436.5625 A0,0 0 0 0 312,436.5625 L508,436.5625 A0,0 0 0 0 508,436.5625 L508,406.2969 L498,396.2969 L312,396.2969 A0,0 0 0 0 312,396.2969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M498,396.2969 L498,406.2969 L508,406.2969 L498,396.2969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="171" x="318" y="413.3638">Prevents new appointment</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="318" y="428.4966">requests when TRUE</text><g id="elem_GMN296"><path d="M210.5,1377.2969 L210.5,1417.5625 A0,0 0 0 0 210.5,1417.5625 L445.5,1417.5625 A0,0 0 0 0 445.5,1417.5625 L445.5,1387.2969 L435.5,1377.2969 L332.44,1377.2969 L331.78,1231.4269 L324.44,1377.2969 L210.5,1377.2969 A0,0 0 0 0 210.5,1377.2969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M435.5,1377.2969 L435.5,1387.2969 L445.5,1387.2969 L435.5,1377.2969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="167" x="216.5" y="1394.3638">Status values: Requested,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="214" x="216.5" y="1409.4966">Confirmed, Completed, Cancelled</text></g><g id="elem_GMN299"><path d="M716.5,1377.2969 L716.5,1393.2969 L681.78,1397.2969 L716.5,1401.2969 L716.5,1417.5625 A0,0 0 0 0 716.5,1417.5625 L925.5,1417.5625 A0,0 0 0 0 925.5,1417.5625 L925.5,1387.2969 L915.5,1377.2969 L716.5,1377.2969 A0,0 0 0 0 716.5,1377.2969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M915.5,1377.2969 L915.5,1387.2969 L925.5,1387.2969 L915.5,1377.2969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="162" x="722.5" y="1394.3638">Multiple surgery locations</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="188" x="722.5" y="1409.4966">across the South West region</text></g><!--MD5=[9f0044277d0a7dc49c711a36cd900cb0]
+link OfficeManager to Dentist--><g id="link_OfficeManager_Dentist"><path codeLine="95" d="M555.81,222.5069 C550.18,318.2169 541.23,470.4069 535.48,568.0569 " fill="none" id="OfficeManager-to-Dentist" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="535.18,573.2369,539.7133,564.4934,535.4803,568.2459,531.7278,564.0129,535.18,573.2369" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="557.7063,265.8547,561.1714,256.9978,555.3037,256.6526,557.7063,265.8547" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="567" y="265.3638">registers</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="547.0202" y="242.8744">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="528.3191" y="562.2974">*</text></g><!--MD5=[da31c0fe601e5eeb8ee999bb2021e5b6]
+link OfficeManager to Patient--><g id="link_OfficeManager_Patient"><path codeLine="96" d="M473.38,182.7269 C420.08,213.6169 351.59,255.8869 295,299.2969 C290.24,302.9469 285.46,306.7469 280.68,310.6469 " fill="none" id="OfficeManager-to-Patient" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="276.67,313.9469,286.1623,311.3206,280.5321,310.7713,281.0814,305.1412,276.67,313.9469" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="357.8343,263.6286,366.9955,261.0746,363.7447,256.1776,357.8343,263.6286" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="371" y="265.3638">enrolls</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="457.5064" y="183.3867">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="284.3408" y="303.3164">*</text></g><!--MD5=[2f51b57f06998613c85efb30eb754408]
+link OfficeManager to Appointment--><g id="link_OfficeManager_Appointment"><path codeLine="97" d="M618.94,222.3369 C623.91,232.1869 628.4,242.2869 632,252.2969 C738.92,549.8469 881.55,693.0669 711,959.2969 C650.54,1053.6769 524.36,1097.4169 434.64,1117.2169 " fill="none" id="OfficeManager-to-Appointment" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="429.59,1118.3069,439.2324,1120.3131,434.4769,1117.2495,437.5405,1112.494,429.59,1118.3069" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="793.9914,667.2605,798.6945,658.9942,792.9374,657.8085,793.9914,667.2605" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="804" y="666.8638">books</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="615.5755" y="242.6898">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="437.4862" y="1113.5601">*</text></g><!--MD5=[48c468254ab9f58144a6550bdcd17ede]
+link Patient to AppointmentRequest--><g id="link_Patient_AppointmentRequest"><path codeLine="99" d="M211.57,543.5569 C239.09,616.7769 273.63,708.6569 298.99,776.1569 " fill="none" id="Patient-to-AppointmentRequest" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="300.8,780.9669,301.3753,771.1348,299.0397,776.287,293.8875,773.9513,300.8,780.9669" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="295.7591,667.0436,295.3279,657.5428,289.8258,659.6107,295.7591,667.0436" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="303" y="666.8638">makes</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="205.8434" y="562.7356">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="290.8755" y="770.308">*</text></g><!--MD5=[769704aea6c8338c742acf0d6f000464]
+link Patient to Appointment--><g id="link_Patient_Appointment"><path codeLine="100" d="M147.66,543.4169 C135.83,655.3869 131.16,824.3369 184,959.2969 C196.19,990.4369 216.54,1019.8269 238.37,1045.2569 " fill="none" id="Patient-Appointment" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="189.8894,875.2835,191.1726,865.8599,185.3884,866.9055,189.8894,875.2835" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="198" y="874.8638">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="138.3685" y="562.9939">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="207.5026" y="1035.2878">0..*</text></g><!--MD5=[dd75729383b2522e1cf17615db74051e]
+link Patient to Bill--><g id="link_Patient_Bill"><path codeLine="101" d="M137.77,543.5669 C135.96,553.5869 134.33,563.5969 133,573.2969 C96.43,839.1569 87.68,1157.0669 85.62,1308.1569 " fill="none" id="Patient-Bill" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="100.6598,1002.8517,104.2074,994.0276,98.3431,993.6276,100.6598,1002.8517" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="110" y="1002.3638">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="128.0074" y="562.7462">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="61.719" y="1297.2107">0..*</text></g><!--MD5=[c5e2576ec8d5c6b142984877b08d3a5e]
+link Dentist to Appointment--><g id="link_Dentist_Appointment"><path codeLine="103" d="M512.2,751.5069 C498.34,811.6569 476.33,892.2569 446,959.2969 C434.25,985.2669 419,1011.8369 403.55,1036.1369 " fill="none" id="Dentist-Appointment" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="562.2169,850.0345,568.1883,842.6323,562.6969,840.5361,562.2169,850.0345" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="573" y="849.8638">assigned to</text><path d="M509,858.9297 L509,898.9297 L698,898.9297 L698,868.9297 L688,858.9297 L509,858.9297 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M688,858.9297 L688,868.9297 L698,868.9297 L688,858.9297 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="168" x="515" y="875.9966">Maximum 5 appointments</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="515" y="891.1294">per dentist per week</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="502.3266" y="771.8744">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="383.9562" y="1025.1701">0..5</text></g><!--MD5=[9a17413d26a0063253b492afd1fc3db3]
+link AppointmentRequest to Appointment--><g id="link_AppointmentRequest_Appointment"><path codeLine="109" d="M334,959.4669 C334,982.4469 334,1007.3969 334,1031.0169 " fill="none" id="AppointmentRequest-to-Appointment" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="334,1036.0369,338,1027.0369,334,1031.0369,330,1027.0369,334,1036.0369" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="339,1002.8633,341.9389,993.8182,336.0611,993.8182,339,1002.8633" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="348" y="1002.3638">creates</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="325.6563" y="979.8309">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="309.1188" y="1025.3907">0..1</text></g><!--MD5=[7b189e436297fa5c01270ebaa962b256]
+link Appointment to Surgery--><g id="link_Appointment_Surgery"><path codeLine="111" d="M425.27,1231.4269 C453.02,1260.8069 483.11,1292.6569 509.37,1320.4569 " fill="none" id="Appointment-to-Surgery" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="512.88,1324.1769,509.6063,1314.888,509.446,1320.5426,503.7915,1320.3824,512.88,1324.1769" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="472.4335,1273.498,468.3587,1264.9046,464.0858,1268.9409,472.4335,1273.498" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82" x="478" y="1274.3638">scheduled at</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="424.4413" y="1250.9019">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="497.7807" y="1313.325">1</text></g><!--MD5=[6bda4907226e8af108e1db92ead033de]
+link Appointment to Bill--><g id="link_Appointment_Bill"><path codeLine="112" d="M241.99,1231.4269 C217.3,1257.3569 190.77,1285.2169 166.68,1310.5169 " fill="none" id="Appointment-to-Bill" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="163.15,1314.2269,172.2616,1310.488,166.6061,1310.6137,166.4804,1304.9582,163.15,1314.2269" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="211.5521,1273.4843,219.9178,1268.9605,215.6611,1264.9072,211.5521,1273.4843" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="65" x="224" y="1274.3638">generates</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="227.2393" y="1250.9019">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="170.8973" y="1303.5">0..1</text></g><rect fill="#DDDDDD" height="130.0781" id="_legend" rx="7.5" ry="7.5" style="stroke:#000000;stroke-width:1.0;" width="178" x="732.5" y="1500.6719"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="743.5" y="1521.667">Symbol</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="66" x="810.5" y="1521.667">Meaning</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="22" x="742.5" y="1537.9639">--&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="809.5" y="1537.9639">Association</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="20" x="742.5" y="1554.2607">..&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="809.5" y="1554.2607">Dependency</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="742.5" y="1570.5576">1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="809.5" y="1570.5576">Exactly one</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="7" x="742.5" y="1586.8545">*</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="809.5" y="1586.8545">Zero or more</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="742.5" y="1603.1514">0..1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="809.5" y="1603.1514">Zero or one</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="742.5" y="1619.4482">0..5</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="809.5" y="1619.4482">Zero to five</text><line style="stroke:#000000;stroke-width:1.0;" x1="738.5" x2="904.5" y1="1508.6719" y2="1508.6719"/><line style="stroke:#000000;stroke-width:1.0;" x1="738.5" x2="904.5" y1="1524.9688" y2="1524.9688"/><line style="stroke:#000000;stroke-width:1.0;" x1="738.5" x2="904.5" y1="1541.2656" y2="1541.2656"/><line style="stroke:#000000;stroke-width:1.0;" x1="738.5" x2="904.5" y1="1557.5625" y2="1557.5625"/><line style="stroke:#000000;stroke-width:1.0;" x1="738.5" x2="904.5" y1="1573.8594" y2="1573.8594"/><line style="stroke:#000000;stroke-width:1.0;" x1="738.5" x2="904.5" y1="1590.1563" y2="1590.1563"/><line style="stroke:#000000;stroke-width:1.0;" x1="738.5" x2="904.5" y1="1606.4531" y2="1606.4531"/><line style="stroke:#000000;stroke-width:1.0;" x1="738.5" x2="904.5" y1="1622.75" y2="1622.75"/><line style="stroke:#000000;stroke-width:1.0;" x1="738.5" x2="738.5" y1="1508.6719" y2="1622.75"/><line style="stroke:#000000;stroke-width:1.0;" x1="805.5" x2="805.5" y1="1508.6719" y2="1622.75"/><line style="stroke:#000000;stroke-width:1.0;" x1="904.5" x2="904.5" y1="1508.6719" y2="1622.75"/><!--MD5=[0f7cc2fff540c24fc6cfaaa0ddc04e0a]
+@startuml
+' Title
+title Advantis Dental Surgeries - Domain Model UML Class Diagram
+
+' Class Definitions
+
+class OfficeManager {
+  - employeeId: String
+  - firstName: String
+  - lastName: String
+  - email: String
+  - phoneNumber: String
+  - -
+  + registerDentist()
+  + enrollPatient()
+  + bookAppointment()
+}
+
+class Dentist {
+  - dentistId: String
+  - firstName: String
+  - lastName: String
+  - phoneNumber: String
+  - email: String
+  - specialization: String
+  - -
+  + viewAppointments()
+  + getSchedule()
+}
+
+class Patient {
+  - patientId: String
+  - firstName: String
+  - lastName: String
+  - phoneNumber: String
+  - email: String
+  - mailingAddress: String
+  - dateOfBirth: Date
+  - hasOutstandingBill: Boolean
+  - -
+  + requestAppointment()
+  + viewAppointments()
+  + cancelAppointment()
+  + changeAppointment()
+}
+
+class Appointment {
+  - appointmentId: String
+  - appointmentDate: Date
+  - appointmentTime: Time
+  - status: String
+  - requestDate: Date
+  - -
+  + book()
+  + cancel()
+  + reschedule()
+  + sendConfirmation()
+}
+
+class AppointmentRequest {
+  - requestId: String
+  - requestDate: DateTime
+  - preferredDate: Date
+  - preferredTime: Time
+  - status: String
+  - -
+  + submit()
+  + approve()
+  + reject()
+}
+
+class Surgery {
+  - surgeryId: String
+  - name: String
+  - locationAddress: String
+  - telephoneNumber: String
+  - -
+  + getDetails()
+  + getAvailability()
+}
+
+class Bill {
+  - billId: String
+  - amount: Decimal
+  - issueDate: Date
+  - dueDate: Date
+  - isPaid: Boolean
+  - -
+  + markAsPaid()
+  + calculateOverdue()
+  + sendReminder()
+}
+
+' Relationships
+
+OfficeManager "1" - -> "*" Dentist : registers >
+OfficeManager "1" - -> "*" Patient : enrolls >
+OfficeManager "1" - -> "*" Appointment : books >
+
+Patient "1" - -> "*" AppointmentRequest : makes >
+Patient "1" - - "0..*" Appointment : has >
+Patient "1" - - "0..*" Bill : has >
+
+Dentist "1" - - "0..5" Appointment : assigned to >
+note on link
+  Maximum 5 appointments
+  per dentist per week
+end note
+
+AppointmentRequest "1" ..> "0..1" Appointment : creates >
+
+Appointment "*" - -> "1" Surgery : scheduled at >
+Appointment "1" ..> "0..1" Bill : generates >
+
+' Notes
+
+note right of Patient::hasOutstandingBill
+  Prevents new appointment 
+  requests when TRUE
+end note
+
+note bottom of Appointment
+  Status values: Requested, 
+  Confirmed, Completed, Cancelled
+end note
+
+note right of Surgery
+  Multiple surgery locations
+  across the South West region
+end note
+
+' Legend
+legend bottom right
+  |= Symbol |= Meaning |
+  | - -> | Association |
+  | ..> | Dependency |
+  | 1 | Exactly one |
+  | * | Zero or more |
+  | 0..1 | Zero or one |
+  | 0..5 | Zero to five |
+endlegend
+@enduml
+
+@startuml
+title Advantis Dental Surgeries - Domain Model UML Class Diagram
+
+
+class OfficeManager {
+  - employeeId: String
+  - firstName: String
+  - lastName: String
+  - email: String
+  - phoneNumber: String
+  - -
+  + registerDentist()
+  + enrollPatient()
+  + bookAppointment()
+}
+
+class Dentist {
+  - dentistId: String
+  - firstName: String
+  - lastName: String
+  - phoneNumber: String
+  - email: String
+  - specialization: String
+  - -
+  + viewAppointments()
+  + getSchedule()
+}
+
+class Patient {
+  - patientId: String
+  - firstName: String
+  - lastName: String
+  - phoneNumber: String
+  - email: String
+  - mailingAddress: String
+  - dateOfBirth: Date
+  - hasOutstandingBill: Boolean
+  - -
+  + requestAppointment()
+  + viewAppointments()
+  + cancelAppointment()
+  + changeAppointment()
+}
+
+class Appointment {
+  - appointmentId: String
+  - appointmentDate: Date
+  - appointmentTime: Time
+  - status: String
+  - requestDate: Date
+  - -
+  + book()
+  + cancel()
+  + reschedule()
+  + sendConfirmation()
+}
+
+class AppointmentRequest {
+  - requestId: String
+  - requestDate: DateTime
+  - preferredDate: Date
+  - preferredTime: Time
+  - status: String
+  - -
+  + submit()
+  + approve()
+  + reject()
+}
+
+class Surgery {
+  - surgeryId: String
+  - name: String
+  - locationAddress: String
+  - telephoneNumber: String
+  - -
+  + getDetails()
+  + getAvailability()
+}
+
+class Bill {
+  - billId: String
+  - amount: Decimal
+  - issueDate: Date
+  - dueDate: Date
+  - isPaid: Boolean
+  - -
+  + markAsPaid()
+  + calculateOverdue()
+  + sendReminder()
+}
+
+
+OfficeManager "1" - -> "*" Dentist : registers >
+OfficeManager "1" - -> "*" Patient : enrolls >
+OfficeManager "1" - -> "*" Appointment : books >
+
+Patient "1" - -> "*" AppointmentRequest : makes >
+Patient "1" - - "0..*" Appointment : has >
+Patient "1" - - "0..*" Bill : has >
+
+Dentist "1" - - "0..5" Appointment : assigned to >
+note on link
+  Maximum 5 appointments
+  per dentist per week
+end note
+
+AppointmentRequest "1" ..> "0..1" Appointment : creates >
+
+Appointment "*" - -> "1" Surgery : scheduled at >
+Appointment "1" ..> "0..1" Bill : generates >
+
+
+note right of Patient::hasOutstandingBill
+  Prevents new appointment 
+  requests when TRUE
+end note
+
+note bottom of Appointment
+  Status values: Requested, 
+  Confirmed, Completed, Cancelled
+end note
+
+note right of Surgery
+  Multiple surgery locations
+  across the South West region
+end note
+
+legend bottom right
+  |= Symbol |= Meaning |
+  | - -> | Association |
+  | ..> | Dependency |
+  | 1 | Exactly one |
+  | * | Zero or more |
+  | 0..1 | Zero or one |
+  | 0..5 | Zero to five |
+endlegend
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
