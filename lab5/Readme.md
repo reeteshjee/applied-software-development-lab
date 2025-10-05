@@ -543,7 +543,7 @@ HAVING scheduled_appointments < 5;
    - Query4_PatientDateAppointments.png
 
 4. **ER Diagram** (image file):
-   - ADS_ERDiagram.png or .jpg
+   - ER Diagram.png or .jpg
 
 ---
 
