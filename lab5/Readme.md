@@ -61,18 +61,8 @@ This document contains the complete database design and implementation for the A
 
 ### ER Diagram Description
 
-```
-dentists (1) ----< (M) appointments (M) >---- (1) patients
-                           |
-                          (M)
-                           |
-                          (1)
-                       surgeries
+<img src="ER Diagram.png" alt="Diagram" width="500"/>
 
-patients (1) ----< (M) bills
-```
-
-**Note**: The visual ER diagram can be created using tools like MySQL Workbench, draw.io, or Lucidchart.
 
 ---
 
